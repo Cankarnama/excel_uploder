@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <title>EXCEL UPLOADERt</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script>
+  </head>
+
+  <body>
+    <bold
+      ><center><h1>EXCEL UPLOADER</h1></center></bold
+    >
+
+    <div class="conatiner mt-lg-5">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-3">
+          <input class="" type="file" id="file" accept=".xls,.xlsx" />
+        </div>
+        <div class="col-md-3">
+          <button class="btn btn-primary" id="button">Upload</button>
+        </div>
+        <div class="col-md-12">
+          <pre id="dump"></pre>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="converter.js"></script>
+</html>
